@@ -1,5 +1,37 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-skratchdot-open-golang (0.0~git20160302.0.75fb7ed-2.1) unstable; urgency=medium
 
-  * Initial release
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Holger Levsen <holger@debian.org>  Fri, 20 May 2022 23:09:13 +0200
+
+golang-github-skratchdot-open-golang (0.0~git20160302.0.75fb7ed-2) unstable; urgency=medium
+
+  * Team upload.
+  * Use debhelper v10
+  * Build-Depends on golang-any instead of golang-go
+
+ -- Dr. Tobias Quathamer <toddy@debian.org>  Sun, 04 Dec 2016 11:06:35 +0100
+
+golang-github-skratchdot-open-golang (0.0~git20160302.0.75fb7ed-1) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Team upload.
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL
+
+  [ Fernando Ike ]
+  * New upstream snapshot.
+  * debian/control:
+    - Bump Standards-Version to 3.9.8.
+  * debian/copyright:
+    - Added vendor/xdg-open authors
+  * debian/watch:
+    - updated to version 4.
+
+ -- Fernando Ike <fike@midstorm.org>  Wed, 03 Aug 2016 18:39:55 -0300
+
+golang-github-skratchdot-open-golang (0.0~git20150221.0.c874831-1) unstable; urgency=medium
+
+  * Initial release (Closes: 801051)
+
+ -- Fernando Ike <fike@midstorm.org>  Mon, 28 Sep 2015 14:52:02 -0300
